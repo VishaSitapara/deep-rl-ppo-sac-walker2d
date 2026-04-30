@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="results/gait_capture.png" width="100%">
+  <img src="results/gait_gif.gif" width="850">
 </p>
 
 <h1 align="center">Learning Bipedal Walking with Reinforcement Learning</h1>
 
 <p align="center">
-  PPO • SAC • Continuous Control • Gymnasium • MuJoCo
+  PPO • SAC • Continuous Control • Walker2D Environment
 </p>
 
 
@@ -39,15 +39,19 @@ The project uses the **Walker2d** simulation environment from **Gymnasium**, usi
 
 ## Project Structure
 
-```bash id="a5m9np"
+```bash
 walker2d-rl/
 │
-├── results/
 ├── ppo_experiments/
 ├── sac_experiments/
+├── results/
+│   ├── demo_videos/
+│   ├── PPO_vs_SAC_reward.png
+│   ├── gait_capture.png
+│   └── gait_gif.gif
+│
 ├── requirements.txt
 └── README.md
-```
 
 ---
 
@@ -104,16 +108,19 @@ tensorboard --logdir=logs/sac
 
 ### PPO vs SAC Comparison
 
-<table>
-<tr>
-<td><img src="results/ppo_reward_curve.png"></td>
-<td><img src="results/sac_reward_curve.png"></td>
-</tr>
-</table>
+<p align="center">
+  <img src="results/PPO_vs_SAC_reward.png" width="800">
+</p>
 
-### Final Agent Demonstration
+The graph above compares cumulative reward growth for PPO and SAC during training. Both algorithms successfully learned forward locomotion, while showing noticeable differences in convergence speed and exploration behavior.
 
-(Add walking demo GIF/video screenshots)
+### Learned Locomotion Behavior
+
+<p align="center">
+  <img src="results/gait_capture.png" width="750">
+</p>
+
+Beyond numerical rewards, the final walking style of the trained agent was visually analyzed to study balance, smoothness, and gait consistency.
 
 ---
 
