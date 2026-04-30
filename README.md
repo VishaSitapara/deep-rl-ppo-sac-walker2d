@@ -62,6 +62,8 @@ walker2d-rl/
 ├── requirements.txt
 └── README.md
 
+```
+
 ---
 
 ## How to Run
