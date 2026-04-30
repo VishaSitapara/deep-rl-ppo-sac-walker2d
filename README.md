@@ -1,12 +1,21 @@
 <p align="center">
-  <img src="results/gait_gif.gif" width="250">
+  <img src="results/gait_gif.gif" width="300">
 </p>
 
 <h1 align="center">Learning Bipedal Walking with Reinforcement Learning</h1>
 
 <p align="center">
-  PPO • SAC • Continuous Control • Walker2D Environment
+  Comparative Deep RL Benchmark using PPO and SAC on Continuous Control Locomotion
 </p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.x-blue">
+  <img src="https://img.shields.io/badge/Reinforcement%20Learning-Project-green">
+  <img src="https://img.shields.io/badge/Algorithms-PPO%20%7C%20SAC-orange">
+  <img src="https://img.shields.io/badge/Environment-Walker2D-red">
+</p>
+
+---
 
 
 This project explores how a Reinforcement Learning (RL) agent can learn to walk like a 2D robot by interacting with a simulated physics environment.
@@ -105,6 +114,10 @@ tensorboard --logdir=logs/sac
 ---
 
 ## Results Snapshot
+
+### Demo Video
+
+- SAC and PPO Agent Demo: [View Video](results/demo_videos/SAC_vs_PPO_gait_analysis.mp4)
 
 ### PPO vs SAC Comparison
 
