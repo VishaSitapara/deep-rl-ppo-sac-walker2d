@@ -49,8 +49,7 @@ The project uses the **Walker2d** simulation environment from **Gymnasium**, usi
 ## Project Structure
 
 ```bash
-walker2d-rl/
-│
+Repository Root
 ├── ppo_experiments/
 ├── sac_experiments/
 ├── results/
